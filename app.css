@@ -1,54 +1,73 @@
-/* CSS declarations go here */
+body {
+  background-color: rgba(19, 155, 180, .1);
+}
+
 .detached {
   padding: 20px 0;
   text-align: center;
 }
+
 .detached > div > div {
   padding: 10px;
-  border: 1px solid transparent;
+  background-color: #FFF;
+  border: 1px solid #d8e2e8;
   border-radius: 4px;
   transition: 0.2s;
 }
+
 .detached > div:hover > div {
   margin-top: -10px;
-  border: 1px solid rgb(200, 200, 200);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+  border: 2px solid rgba(19, 155, 189, .5);
+  box-shadow: 0 0 0 2px rgba(19, 155, 189, .5)
   background: rgba(200, 200, 200, 0.1);
   transition: 0.5s;
 }
 
-#front {
+#jsconfbr-family {
     top: 55px;
     margin-bottom: 55px;
-    height: 428px;
+    height: 300px;
     text-align: center;
-    background: url(http://2014.jsconfbr.org/images/front.jpg) center no-repeat;
+    background: url('http://2014.jsconfbr.org/images/front.jpg') center no-repeat;
 }
-#front h1, #front h2 {
+
+.login-display-name {
+  color: #fff;
+}
+
+#jsconfbr-family h1, #jsconfbr-family h2 {
     position: relative;
     margin: 0;
-    top: 80px;
+    top: 30px;
     font-weight: normal;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
     color: #fff;
 }
-#front h1 {
+
+#jsconfbr-family h1 {
     font-size: 72px;
 }
-#front h2 {
+
+#jsconfbr-family h2 {
     font-size: 31px;
 }
-#front .logo {
+
+#jsconfbr-family .logo {
     position: relative;
-    top: 80px;
+    top: 30px;
     width: 80px;
     height: 80px;
     box-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
 }
 
-div#logginButtons {
+div#twitter-ui-buttons {
   position: relative;
-  top: 90px;
+  top: 40px;
+  font-size: 20px;
+}
+
+a#jsconfbr-link {
+  text-decoration: none;
 }
 
