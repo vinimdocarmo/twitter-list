@@ -69,5 +69,10 @@ div#twitter-ui-buttons {
 
 a#jsconfbr-link {
   text-decoration: none;
+  top: 110px;
+  font-size: 20px;
 }
 
+a#jsconfbr-link {
+  text-decoration: none;
+}
