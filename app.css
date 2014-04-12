@@ -17,8 +17,8 @@ body {
 }
 
 .detached > div:hover > div {
-  border: 2px solid rgba(19, 155, 189, .5);
-  box-shadow: 0 0 0 2px rgba(19, 155, 189, .5)
+  border: 1px solid rgba(19, 155, 189, .5);
+  box-shadow: 0 0 0 2px rgba(19, 155, 189, .5);
   background: rgba(200, 200, 200, 0.1);
   transition: 0.5s;
 }
