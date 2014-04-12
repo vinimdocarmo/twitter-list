@@ -9,6 +9,7 @@ body {
 
 .detached > div > div {
   padding: 10px;
+  margin-bottom: 10px;
   background-color: #FFF;
   border: 1px solid #d8e2e8;
   border-radius: 4px;
@@ -16,7 +17,6 @@ body {
 }
 
 .detached > div:hover > div {
-  margin-top: -10px;
   border: 2px solid rgba(19, 155, 189, .5);
   box-shadow: 0 0 0 2px rgba(19, 155, 189, .5)
   background: rgba(200, 200, 200, 0.1);
