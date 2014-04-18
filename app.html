@@ -33,7 +33,7 @@
         <img src="{{services.twitter.profile_image_url_https}}" class="img-circle" alt="Thumbnail profile picture">
       </div>
       <div class="col-xs-9 description">
-        <h4>{{profile.name}}</h4>
+        <h5>{{profile.name}}</h5>
         <p>
           <iframe allowtransparency="true" frameborder="0" scrolling="no" src="//platform.twitter.com/widgets/follow_button.html?show_count=false&screen_name={{services.twitter.screenName}}" style="width:300px; height:20px;"></iframe>
         </p>
@@ -49,9 +49,6 @@
     <h2>Let everyone knows!</h2>
       <div id="twitter-ui-buttons">
         {{> loginButtons}}
-      </div>
-      <div id="github-link">
-        <a href="http://github.com/vinimdocarmo/twitter-list" class="btn btn-success btn-lg" target="_blank">View on GitHub</a>
       </div>
   </div>
 </template>

@@ -35,7 +35,7 @@ body {
 #jsconfbr-family {
     top: 55px;
     margin-bottom: 55px;
-    height: 370px;
+    height: 320px;
     text-align: center;
     background: url('http://2014.jsconfbr.org/images/front.jpg') center no-repeat;
 }
@@ -47,11 +47,6 @@ body {
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
     color: #fff;
-}
-
-#github-link {
-  position: relative;
-  top: 80px; 
 }
 
 #jsconfbr-family h1 {
