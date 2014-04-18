@@ -31,10 +31,6 @@ body {
     background: url('http://2014.jsconfbr.org/images/front.jpg') center no-repeat;
 }
 
-.login-display-name {
-  color: #fff;
-}
-
 #jsconfbr-family h1, #jsconfbr-family h2 {
     position: relative;
     margin: 0;
@@ -69,13 +65,23 @@ body {
 div#twitter-ui-buttons {
   position: relative;
   top: 65px;
-  font-size: 20px;
+  /*font-size: 20px;*/
 }
 
-a#jsconfbr-link, a.twitter-link {
+#login-buttons-twitter {
+  background: #fff !important;
+}
+
+.text-besides-image, .login-display-name {
+  color: #596595;
+}
+
+a.twitter-link {
   text-decoration: none;
 }
 
 a#jsconfbr-link {
   top: 110px;
+  text-decoration: underline;
+  color: #fff;
 }
