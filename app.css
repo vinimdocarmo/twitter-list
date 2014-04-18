@@ -6,12 +6,17 @@ body {
   margin-top: -30px;
 }
 
-.detached {
+.col {
   padding: 20px 0;
+}
+
+.detached {
   text-align: center;
 }
 
 .detached > div > div {
+  overflow-y: auto;
+  overflow-x: hidden;
   padding: 10px;
   margin-bottom: 10px;
   background-color: #FFF;
