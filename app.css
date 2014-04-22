@@ -33,25 +33,25 @@ body {
 }
 
 #jsconfbr-family {
-    top: 55px;
-    margin-bottom: 55px;
-    height: 320px;
-    text-align: center;
-    background: url('http://2014.jsconfbr.org/images/front.jpg') center no-repeat;
+  top: 55px;
+  margin-bottom: 55px;
+  height: 320px;
+  text-align: center;
+  background: url('http://2014.jsconfbr.org/images/front.jpg') center no-repeat;
 }
 
 #jsconfbr-family h1, #jsconfbr-family h2 {
-    position: relative;
-    margin: 0;
-    font-weight: normal;
-    text-align: center;
-    text-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
-    color: #fff;
+  position: relative;
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
+  color: #fff;
 }
 
 #jsconfbr-family h1 {
-    top: 55px;
-    font-size: 72px;
+  top: 55px;
+  font-size: 72px;
 }
 
 #jsconfbr-family h2 {
@@ -60,11 +60,11 @@ body {
 }
 
 #jsconfbr-family .logo {
-    position: relative;
-    top: 30px;
-    width: 80px;
-    height: 80px;
-    box-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
+  position: relative;
+  top: 30px;
+  width: 80px;
+  height: 80px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.4),0 0 30px rgba(0,0,0,.075);
 }
 
 div#twitter-ui-buttons {
@@ -92,4 +92,13 @@ a.twitter-link {
 a#jsconfbr-link {
   top: 110px;
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #jsconfbr-family {
+    height: 400px;
+  }
+  .profile-name {
+    font-size: 170%;
+  }
 }
