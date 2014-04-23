@@ -76,6 +76,11 @@ h2.col-title {
   font-weight: normal;
 }
 
+div#twitterStreaming {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 div#twitter-ui-buttons {
   position: relative;
   top: 70px;
